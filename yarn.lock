@@ -1323,6 +1323,11 @@ unbox-primitive@^1.1.0:
     has-symbols "^1.1.0"
     which-boxed-primitive "^1.1.1"
 
+use-auto-callback-ref@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/use-auto-callback-ref/-/use-auto-callback-ref-2.0.0.tgz#d52f97ff7021a37044439ba2aa3093b0f0bb09e4"
+  integrity sha512-UhQf80uJVuq6pqJXlUBF9yX1HDhE4rklgUM+9U7Qp5mR/TRUUgE9RkYmF1KEdugAagBOKR2zQe8D36Pv/DBkvw==
+
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
   resolved "https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"

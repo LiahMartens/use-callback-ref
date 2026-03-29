@@ -1,6 +1,6 @@
 {
   "name": "use-auto-callback-ref",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "author": {
     "name": "Liah (Liam) Martens",
@@ -20,7 +20,8 @@
   "exports": {
     ".": {
       "types": "./lib/index.d.ts",
-      "module": "./lib/index.js"
+      "module": "./lib/index.js",
+      "default": "./lib/index.js"
     }
   },
   "scripts": {
@@ -40,5 +41,8 @@
   },
   "peerDependencies": {
     "react": ">=17.0.0||>=18.0.0||>=19.0.0"
+  },
+  "dependencies": {
+    "use-auto-callback-ref": "^2.0.0"
   }
 }
