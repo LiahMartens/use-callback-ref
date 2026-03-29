@@ -2,7 +2,6 @@
   "name": "use-auto-callback-ref",
   "version": "2.0.0",
   "license": "MIT",
-  "type": "module",
   "author": {
     "name": "Liam Martens",
     "email": "hi@liammartens.com"
@@ -14,10 +13,16 @@
   "files": [
     "lib"
   ],
+  "type": "module",
   "sideEffects": false,
-  "module": "lib/esm/index.js",
+  "module": "lib/index.js",
   "types": "lib/index.d.ts",
-  "exports": {},
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "module": "./lib/index.js"
+    }
+  },
   "scripts": {
     "format": "oxfmt",
     "lint:fix": "oxlint --fix",
