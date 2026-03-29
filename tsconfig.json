@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
+    "rootDir": "./src",
     "outDir": "lib",
-    "module": "ESNext",
-    "moduleResolution": "node",
+    "module": "node16",
+    "moduleResolution": "node16",
     "target": "ES6",
     "jsx": "preserve",
     "declaration": true,
-    "emitDeclarationOnly": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "strictNullChecks": true,
-    "baseUrl": "./",
     "paths": {
       "@/": ["./src/*"]
     }
