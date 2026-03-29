@@ -1,4 +1,4 @@
-import { useCallback, useRef } from 'react';
+import { useCallback, useRef } from "react";
 
 export function useCallbackRef<T extends Function>(callback: T, deps: ReadonlyArray<unknown>) {
   const actualCallback = useCallback(callback, deps);
