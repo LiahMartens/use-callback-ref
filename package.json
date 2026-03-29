@@ -3,12 +3,12 @@
   "version": "2.0.0",
   "license": "MIT",
   "author": {
-    "name": "Liam Martens",
-    "email": "hi@liammartens.com"
+    "name": "Liah (Liam) Martens",
+    "email": "hi@liahmartens.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LiamMartens/use-callback-ref"
+    "url": "https://github.com/LiahMartens/use-callback-ref"
   },
   "files": [
     "lib"
